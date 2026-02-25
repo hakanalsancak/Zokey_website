@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Zokey - AI-powered product research app for iOS. Get personalized product recommendations based on your preferences and budget.">
     <title>Zokey - AI-Powered Product Research</title>
+    <link rel="icon" type="image/png" href="zokey-logo.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="container">
-                <div class="logo">Zokey</div>
+                <div class="logo">
+                    <img src="zokey-logo.png" alt="Zokey logo" class="logo-image">
+                    <span class="logo-type">Zokey</span>
+                </div>
                 <ul class="nav-links">
                     <li><a href="#features">Features</a></li>
                     <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="mailto:hakanalsancak01@gmail.com">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -23,59 +28,147 @@
 
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="container hero-layout">
                 <div class="hero-content">
-                    <h1 class="hero-title">Zokey</h1>
-                    <p class="hero-subtitle">AI-Powered Product Research for iOS</p>
+                    <div class="hero-pill">AI Shopping Assistant for Amazon Shoppers</div>
+                    <h1 class="hero-title">Find the perfect product in seconds.</h1>
+                    <p class="hero-subtitle">
+                        Just answer a few quick questions and let Zokey’s AI do the hard work for you.
+                    </p>
                     <p class="hero-description">
-                        Discover the perfect products with Zokey. Our AI guides you through structured questions 
-                        about your preferences, budget, and needs to provide personalized recommendations.
+                        Instead of scrolling through thousands of listings, Zokey narrows down exactly what you need 
+                        and sends you to the most relevant options on Amazon to complete your purchase.
                     </p>
                     <div class="cta-section">
-                        <div class="coming-soon-badge">Coming Soon to App Store</div>
-                        <div class="app-store-badge">
-                            <img src="app-store-logo.png" alt="Download on the App Store" class="app-store-image">
+                        <a 
+                            href="https://apps.apple.com/gb/app/zokey-ai-shopping-assistant/id6759506922" 
+                            class="primary-btn" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            Open in the App Store
+                        </a>
+                        <a 
+                            href="https://apps.apple.com/gb/app/zokey-ai-shopping-assistant/id6759506922" 
+                            class="app-store-badge-link" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <img src="app-store-logo.png" alt="Download Zokey on the App Store" class="app-store-image">
+                        </a>
+                        <p class="hero-note">
+                            Available on iPhone and iPad. Requires iOS 18.6 or later.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-device">
+                        <div class="hero-device-header">
+                            <span class="hero-device-logo">Z</span>
+                            <span class="hero-device-title">Zokey – AI Shopping Assistant</span>
+                        </div>
+                        <div class="hero-device-body">
+                            <div class="hero-device-step">
+                                <span class="step-index">1</span>
+                                <div class="step-text">
+                                    <h3>Tell Zokey what you’re looking for</h3>
+                                    <p>Electronics, home & kitchen, beauty, sports, gifts and more.</p>
+                                </div>
+                            </div>
+                            <div class="hero-device-step">
+                                <span class="step-index">2</span>
+                                <div class="step-text">
+                                    <h3>Answer a few smart questions</h3>
+                                    <p>Budget, quality preferences, key features, who it’s for.</p>
+                                </div>
+                            </div>
+                            <div class="hero-device-step">
+                                <span class="step-index">3</span>
+                                <div class="step-text">
+                                    <h3>Get curated Amazon picks</h3>
+                                    <p>Zokey’s AI recommends products and sends you to Amazon to buy.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="features" class="features">
+        <section id="features" class="features reveal-on-scroll">
             <div class="container">
-                <h2 class="section-title">How Zokey Works</h2>
+                <p class="section-eyebrow">Why shoppers use Zokey</p>
+                <h2 class="section-title">Shop smarter. Skip the endless scrolling.</h2>
                 <div class="features-grid">
-                    <div class="feature-card">
-                        <h3>AI-Powered Guidance</h3>
-                        <p>Answer structured questions about category, budget range, and personal preferences to get started.</p>
+                    <div class="feature-card reveal-on-scroll">
+                        <h3>AI-powered product discovery</h3>
+                        <p>
+                            Zokey turns a few simple answers into focused product shortlists, so you don’t 
+                            have to compare hundreds of similar items yourself.
+                        </p>
                     </div>
-                    <div class="feature-card">
-                        <h3>Personalized Recommendations</h3>
-                        <p>Receive product recommendations tailored to your specific needs and preferences.</p>
+                    <div class="feature-card reveal-on-scroll">
+                        <h3>Personalized to your needs</h3>
+                        <p>
+                            Recommendations are based on what matters to you – use case, budget, who it’s for, 
+                            and how you plan to use the product.
+                        </p>
                     </div>
-                    <div class="feature-card">
-                        <h3>Seamless Shopping</h3>
-                        <p>Get redirected to Amazon to complete your purchase. We don't sell products or process payments.</p>
+                    <div class="feature-card reveal-on-scroll">
+                        <h3>Designed for Amazon purchases</h3>
+                        <p>
+                            Once you’ve found the right option, Zokey sends you directly to Amazon to review 
+                            the listing and complete your order there.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="how-it-works" class="how-it-works">
+        <section id="how-it-works" class="how-it-works reveal-on-scroll">
             <div class="container">
-                <h2 class="section-title">About Zokey</h2>
+                <p class="section-eyebrow">How it works</p>
+                <h2 class="section-title">From idea to checkout in three steps</h2>
+                <div class="steps-grid">
+                    <div class="step-card reveal-on-scroll">
+                        <span class="step-number">1</span>
+                        <h3>Describe what you need</h3>
+                        <p>
+                            Start by telling Zokey what you’re shopping for – from laptops and headphones to 
+                            kitchen appliances, beauty, sports gear, baby products, books, and more.
+                        </p>
+                    </div>
+                    <div class="step-card reveal-on-scroll">
+                        <span class="step-number">2</span>
+                        <h3>Answer a few focused questions</h3>
+                        <p>
+                            Zokey asks short, targeted questions to understand your budget, preferences, and 
+                            priorities, helping narrow down the best-fit options.
+                        </p>
+                    </div>
+                    <div class="step-card reveal-on-scroll">
+                        <span class="step-number">3</span>
+                        <h3>Review picks and buy on Amazon</h3>
+                        <p>
+                            The app presents curated product suggestions and then redirects you to Amazon, 
+                            where you complete the purchase using your existing Amazon account.
+                        </p>
+                    </div>
+                </div>
+
                 <div class="info-content">
                     <p class="info-text">
-                        Zokey is an AI-powered iOS mobile application currently in development. 
-                        The app helps users research products by guiding them through structured questions 
-                        such as category, budget range, and personal preferences.
+                        Zokey is an independent AI-powered iOS application that focuses solely on product discovery 
+                        and research. It is designed to save time and reduce decision fatigue for Amazon customers.
                     </p>
                     <p class="info-text">
-                        Based on this information, the app provides product recommendations and redirects 
-                        users to Amazon to complete their purchase.
+                        All orders, payments, shipping, returns, and customer service are handled entirely by Amazon. 
+                        Zokey does not manage transactions, inventory, fulfillment, or customer support.
                     </p>
                     <p class="info-text highlight">
-                        <strong>Zokey does not sell products directly and does not process payments.</strong>
+                        <strong>Zokey does not sell products directly and does not process payments. Users are always 
+                        redirected to Amazon to review product details and place orders.</strong>
                     </p>
                 </div>
             </div>
@@ -85,14 +178,18 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">Zokey</div>
+                <div class="footer-logo">
+                    <img src="zokey-logo.png" alt="Zokey logo" class="logo-image">
+                    <span class="logo-type">Zokey</span>
+                </div>
                 <div class="footer-links">
+                    <a href="https://apps.apple.com/gb/app/zokey-ai-shopping-assistant/id6759506922" target="_blank" rel="noopener noreferrer">App Store</a>
                     <a href="privacy.html">Privacy Policy</a>
                     <a href="mailto:hakanalsancak01@gmail.com">Contact</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Zokey. All rights reserved.</p>
+                <p>&copy; 2026 Zokey (Alsancar Ltd). All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -101,8 +198,11 @@
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (!href || !href.startsWith('#')) return;
+
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const target = document.querySelector(href);
                 if (target) {
                     const headerOffset = 80;
                     const elementPosition = target.getBoundingClientRect().top;
@@ -115,6 +215,25 @@
                 }
             });
         });
+
+        // Reveal-on-scroll animations
+        const revealElements = document.querySelectorAll('.reveal-on-scroll');
+        if ('IntersectionObserver' in window && revealElements.length) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.15
+            });
+
+            revealElements.forEach(el => observer.observe(el));
+        } else {
+            revealElements.forEach(el => el.classList.add('is-visible'));
+        }
     </script>
 </body>
 </html>
